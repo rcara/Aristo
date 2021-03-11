@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Theme_Config
   create: all
-  match: exampleSite/content/
+  match: exampleSite/content
 - type: directory
   path: exampleSite/content/blog
   label: Post
