@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Directory
   create: all
-  match: Aristo/*
+  match: Aristo
 - type: directory
   path: exampleSite/content/blog
   label: Post
