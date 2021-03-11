@@ -4,11 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: config
+  create: all
+  match: Aristo/theme.toml
 - type: document
   path: Aristo/theme.toml
   label: Theme Config
-  match: "**/*"
-  read_only: false
 - type: directory
   path: exampleSite/content/blog
   label: Post
