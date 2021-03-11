@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: exampleSite/content
+- type: directory
+  path: ''
   label: Theme_Config
-  read_only: false
+  create: all
+  match: exampleSite/content/
 - type: directory
   path: exampleSite/content/blog
   label: Post
